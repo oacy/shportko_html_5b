@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework5b</title>
+    <style>
+        .yellow{ background-image: url("img/yellow.jpg"); }
+        .red{ background-image: url("img/red.jpg"); }
+        .grey{ background-image: url("img/grey.jpg"); }
+        .blue{ background-image: url("img/blue.jpg"); }
+        table { background-image: url("img/grey.jpg"); }
+        td { background-color: white }
+    </style>
+</head>
+<body>
+<table>
+    <table cellspacing="8" cellpadding="8">
+        <tr style="height: 50px">
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+            <td colspan="2" class="yellow"></td>
+        </tr>
+        <tr style="height: 130px">
+            <td width="50"></td>
+            <td colspan="3" rowspan="2" class="red"></td>
+            <td colspan="2" class="yellow"></td>
+        </tr>
+        <tr style="height: 130px">
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 60px">
+            <td width="60" class="grey"></td>
+            <td width="60" class="grey"></td>
+            <td width="130"></td>
+            <td width="144" colspan="2"></td>
+        </tr>
+        <tr style="height: 60px">
+            <td rowspan="3" class="yellow"></td>
+            <td class="grey"></td>
+            <td class="grey"></td>
+            <td class="white"></td>
+            <td colspan="2" rowspan="2" class="blue"></td>
+        </tr>
+        <tr style="height: 30px">
+            <td colspan="2" rowspan="2" class="white"></td>
+            <td class="grey"></td>
+        </tr>
+        <tr style="height: 30px">
+            <td colspan="3"></td>
+        </tr>
+    </table>
+</body>
+</html>
