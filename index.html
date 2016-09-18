@@ -10,44 +10,52 @@
         .blue{ background-image: url("img/blue.jpg"); }
         table { background-image: url("img/grey.jpg"); }
         td { background-color: white }
+        .tr30{height: 30px}
+        .tr50{ height: 50px }
+        .tr60{height: 60px}
+        .tr130{ height: 130px }
+        #td50{width: 50px}
+        #td60{width: 60px}
+        #td130{width: 130px}
+        #td144{width: 144px}
     </style>
 </head>
 <body>
 <table>
     <table cellspacing="8" cellpadding="8">
-        <tr style="height: 50px">
+        <tr class="tr50">
             <td colspan="2"></td>
             <td colspan="2"></td>
             <td colspan="2" class="yellow"></td>
         </tr>
-        <tr style="height: 130px">
-            <td width="50"></td>
+        <tr class="tr130">
+            <td id="td50"></td>
             <td colspan="3" rowspan="2" class="red"></td>
             <td colspan="2" class="yellow"></td>
         </tr>
-        <tr style="height: 130px">
+        <tr class="tr130">
             <td rowspan="2"></td>
             <td></td>
             <td></td>
         </tr>
-        <tr style="height: 60px">
-            <td width="60" class="grey"></td>
-            <td width="60" class="grey"></td>
-            <td width="130"></td>
-            <td width="144" colspan="2"></td>
+        <tr class="tr60">
+            <td id="td60" class="grey"></td>
+            <td id="td60" class="grey"></td>
+            <td id="td130"></td>
+            <td id="td144" colspan="2"></td>
         </tr>
-        <tr style="height: 60px">
+        <tr class="tr60">
             <td rowspan="3" class="yellow"></td>
             <td class="grey"></td>
             <td class="grey"></td>
             <td class="white"></td>
             <td colspan="2" rowspan="2" class="blue"></td>
         </tr>
-        <tr style="height: 30px">
+        <tr class="tr30">
             <td colspan="2" rowspan="2" class="white"></td>
             <td class="grey"></td>
         </tr>
-        <tr style="height: 30px">
+        <tr class="tr30">
             <td colspan="3"></td>
         </tr>
     </table>
